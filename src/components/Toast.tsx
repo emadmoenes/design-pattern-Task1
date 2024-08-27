@@ -24,7 +24,7 @@ export const Toast: React.FC<ToastProps> = ({
       role="alert"
     >
       <div className="flex p-4">
-        {message}
+        <span>{message}</span>
         <div className="ms-auto">
           <button
             onClick={onClose}

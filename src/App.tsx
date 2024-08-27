@@ -7,7 +7,7 @@ const App: React.FC = () => {
   const { addToast, clearAllToasts } = useToast();
 
   return (
-    <div className="flex flex-col items-center space-y-10">
+    <div className="flex flex-col items-center space-y-10 p-4">
       <h1 className="text-7xl font-bold text-center">Design Patterns Task1</h1>
 
       <div className="space-x-2">
